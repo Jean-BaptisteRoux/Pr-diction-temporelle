@@ -1,0 +1,20 @@
+Sun Feb 26 23:00:12 2023 : Je prédis 1.2565157 qui est plus petit que 1.2724 qui est le prix actuel.
+Mon Feb 27 00:00:09 2023 : Je prédis 1.267512 qui est plus petit que 1.2817 qui est le prix actuel.
+Mon Feb 27 01:00:08 2023 : Je prédis 1.257897 qui est plus petit que 1.272 qui est le prix actuel.
+Mon Feb 27 02:00:09 2023 : Je prédis 1.263536 qui est plus petit que 1.2777 qui est le prix actuel.
+Mon Feb 27 03:00:12 2023 : Je prédis 1.2653031 qui est plus petit que 1.2792 qui est le prix actuel.
+Mon Feb 27 04:00:11 2023 : Je prédis 1.2633821 qui est plus petit que 1.2778 qui est le prix actuel.
+Mon Feb 27 05:00:10 2023 : Je prédis 1.2537397 qui est plus petit que 1.2686 qui est le prix actuel.
+Mon Feb 27 06:00:10 2023 : Je prédis 1.2437624 qui est plus petit que 1.2584 qui est le prix actuel.
+Mon Feb 27 07:00:07 2023 : Je prédis 1.24579 qui est plus petit que 1.2594 qui est le prix actuel.
+Mon Feb 27 22:10:38 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:10:38 2023 : J'investi 121.0 !
+Mon Feb 27 22:10:56 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:11:08 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:11:20 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:11:27 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:11:32 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:11:38 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:12:44 2023 : Je prédis 1.2430716 qui est plus grand que 1.2246 qui est le prix actuel.
+Mon Feb 27 22:22:50 2023 : Je prédis 0.07874475 qui est plus petit que 1.2246 qui est le prix actuel.
+Mon Feb 27 22:22:50 2023 : J'enlève 121.0 !

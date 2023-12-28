@@ -1,0 +1,172 @@
+Sun Feb 26 22:40:08 2023 : I.A. chargé
+Sun Feb 26 22:40:08 2023 : Début du programme
+Sun Feb 26 23:00:04 2023 : Données chargées
+Sun Feb 26 23:00:04 2023 : Données chargées
+Sun Feb 26 23:00:04 2023 : Préparation de données terminées
+Sun Feb 26 23:00:09 2023 : Traitement terminé
+Sun Feb 26 23:00:12 2023 : Connection avec Binance effectué
+Sun Feb 26 23:00:12 2023 : Soldes récupérés
+Sun Feb 26 23:00:12 2023 : Je prédis 1.2565157 qui est plus petit que 1.2724 qui est le prix actuel.
+Sun Feb 26 23:00:12 2023 : Début du programme
+Mon Feb 27 00:00:04 2023 : Données chargées
+Mon Feb 27 00:00:04 2023 : Données chargées
+Mon Feb 27 00:00:04 2023 : Préparation de données terminées
+Mon Feb 27 00:00:05 2023 : Traitement terminé
+Mon Feb 27 00:00:08 2023 : Connection avec Binance effectué
+Mon Feb 27 00:00:09 2023 : Soldes récupérés
+Mon Feb 27 00:00:09 2023 : Je prédis 1.267512 qui est plus petit que 1.2817 qui est le prix actuel.
+Mon Feb 27 00:00:09 2023 : Début du programme
+Mon Feb 27 01:00:03 2023 : Données chargées
+Mon Feb 27 01:00:03 2023 : Données chargées
+Mon Feb 27 01:00:03 2023 : Préparation de données terminées
+Mon Feb 27 01:00:04 2023 : Traitement terminé
+Mon Feb 27 01:00:08 2023 : Connection avec Binance effectué
+Mon Feb 27 01:00:08 2023 : Soldes récupérés
+Mon Feb 27 01:00:08 2023 : Je prédis 1.257897 qui est plus petit que 1.272 qui est le prix actuel.
+Mon Feb 27 01:00:08 2023 : Début du programme
+Mon Feb 27 02:00:05 2023 : Données chargées
+Mon Feb 27 02:00:05 2023 : Données chargées
+Mon Feb 27 02:00:05 2023 : Préparation de données terminées
+Mon Feb 27 02:00:06 2023 : Traitement terminé
+Mon Feb 27 02:00:09 2023 : Connection avec Binance effectué
+Mon Feb 27 02:00:09 2023 : Soldes récupérés
+Mon Feb 27 02:00:09 2023 : Je prédis 1.263536 qui est plus petit que 1.2777 qui est le prix actuel.
+Mon Feb 27 02:00:10 2023 : Début du programme
+Mon Feb 27 03:00:08 2023 : Données chargées
+Mon Feb 27 03:00:08 2023 : Données chargées
+Mon Feb 27 03:00:08 2023 : Préparation de données terminées
+Mon Feb 27 03:00:08 2023 : Traitement terminé
+Mon Feb 27 03:00:11 2023 : Connection avec Binance effectué
+Mon Feb 27 03:00:12 2023 : Soldes récupérés
+Mon Feb 27 03:00:12 2023 : Je prédis 1.2653031 qui est plus petit que 1.2792 qui est le prix actuel.
+Mon Feb 27 03:00:12 2023 : Début du programme
+Mon Feb 27 04:00:06 2023 : Données chargées
+Mon Feb 27 04:00:06 2023 : Données chargées
+Mon Feb 27 04:00:06 2023 : Préparation de données terminées
+Mon Feb 27 04:00:07 2023 : Traitement terminé
+Mon Feb 27 04:00:10 2023 : Connection avec Binance effectué
+Mon Feb 27 04:00:11 2023 : Soldes récupérés
+Mon Feb 27 04:00:11 2023 : Je prédis 1.2633821 qui est plus petit que 1.2778 qui est le prix actuel.
+Mon Feb 27 04:00:11 2023 : Début du programme
+Mon Feb 27 05:00:06 2023 : Données chargées
+Mon Feb 27 05:00:06 2023 : Données chargées
+Mon Feb 27 05:00:06 2023 : Préparation de données terminées
+Mon Feb 27 05:00:06 2023 : Traitement terminé
+Mon Feb 27 05:00:09 2023 : Connection avec Binance effectué
+Mon Feb 27 05:00:10 2023 : Soldes récupérés
+Mon Feb 27 05:00:10 2023 : Je prédis 1.2537397 qui est plus petit que 1.2686 qui est le prix actuel.
+Mon Feb 27 05:00:10 2023 : Début du programme
+Mon Feb 27 06:00:05 2023 : Données chargées
+Mon Feb 27 06:00:05 2023 : Données chargées
+Mon Feb 27 06:00:05 2023 : Préparation de données terminées
+Mon Feb 27 06:00:06 2023 : Traitement terminé
+Mon Feb 27 06:00:09 2023 : Connection avec Binance effectué
+Mon Feb 27 06:00:10 2023 : Soldes récupérés
+Mon Feb 27 06:00:10 2023 : Je prédis 1.2437624 qui est plus petit que 1.2584 qui est le prix actuel.
+Mon Feb 27 06:00:10 2023 : Début du programme
+Mon Feb 27 07:00:03 2023 : Données chargées
+Mon Feb 27 07:00:03 2023 : Données chargées
+Mon Feb 27 07:00:03 2023 : Préparation de données terminées
+Mon Feb 27 07:00:04 2023 : Traitement terminé
+Mon Feb 27 07:00:07 2023 : Connection avec Binance effectué
+Mon Feb 27 07:00:07 2023 : Soldes récupérés
+Mon Feb 27 07:00:07 2023 : Je prédis 1.24579 qui est plus petit que 1.2594 qui est le prix actuel.
+Mon Feb 27 07:00:08 2023 : Début du programme
+Mon Feb 27 22:10:27 2023 : I.A. chargé
+Mon Feb 27 22:10:27 2023 : Début du programme
+Mon Feb 27 22:10:27 2023 : Données chargées
+Mon Feb 27 22:10:28 2023 : Données chargées
+Mon Feb 27 22:10:28 2023 : Préparation de données terminées
+Mon Feb 27 22:10:34 2023 : Traitement terminé
+Mon Feb 27 22:10:37 2023 : Connection avec Binance effectué
+Mon Feb 27 22:10:38 2023 : Soldes récupérés
+Mon Feb 27 22:10:38 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:10:38 2023 : J'investi 121.0 !
+Mon Feb 27 22:10:55 2023 : Connection avec Binance effectué
+Mon Feb 27 22:10:56 2023 : Soldes récupérés
+Mon Feb 27 22:10:56 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:10:57 2023 : Début du programme
+Mon Feb 27 22:10:57 2023 : Données chargées
+Mon Feb 27 22:10:57 2023 : Données chargées
+Mon Feb 27 22:10:57 2023 : Préparation de données terminées
+Mon Feb 27 22:10:59 2023 : Traitement terminé
+Mon Feb 27 22:11:07 2023 : Connection avec Binance effectué
+Mon Feb 27 22:11:08 2023 : Soldes récupérés
+Mon Feb 27 22:11:08 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:11:08 2023 : Début du programme
+Mon Feb 27 22:11:08 2023 : Données chargées
+Mon Feb 27 22:11:08 2023 : Données chargées
+Mon Feb 27 22:11:08 2023 : Préparation de données terminées
+Mon Feb 27 22:11:11 2023 : Traitement terminé
+Mon Feb 27 22:11:19 2023 : Connection avec Binance effectué
+Mon Feb 27 22:11:20 2023 : Soldes récupérés
+Mon Feb 27 22:11:20 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:11:20 2023 : Début du programme
+Mon Feb 27 22:11:20 2023 : Données chargées
+Mon Feb 27 22:11:20 2023 : Données chargées
+Mon Feb 27 22:11:20 2023 : Préparation de données terminées
+Mon Feb 27 22:11:23 2023 : Traitement terminé
+Mon Feb 27 22:11:26 2023 : Connection avec Binance effectué
+Mon Feb 27 22:11:27 2023 : Soldes récupérés
+Mon Feb 27 22:11:27 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:11:27 2023 : Début du programme
+Mon Feb 27 22:11:27 2023 : Données chargées
+Mon Feb 27 22:11:27 2023 : Données chargées
+Mon Feb 27 22:11:27 2023 : Préparation de données terminées
+Mon Feb 27 22:11:30 2023 : Traitement terminé
+Mon Feb 27 22:11:32 2023 : Connection avec Binance effectué
+Mon Feb 27 22:11:32 2023 : Soldes récupérés
+Mon Feb 27 22:11:32 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:11:33 2023 : Début du programme
+Mon Feb 27 22:11:33 2023 : Données chargées
+Mon Feb 27 22:11:33 2023 : Données chargées
+Mon Feb 27 22:11:33 2023 : Préparation de données terminées
+Mon Feb 27 22:11:35 2023 : Traitement terminé
+Mon Feb 27 22:11:37 2023 : Connection avec Binance effectué
+Mon Feb 27 22:11:38 2023 : Soldes récupérés
+Mon Feb 27 22:11:38 2023 : Je prédis 1.2700275 qui est plus grand que 1.2496 qui est le prix actuel.
+Mon Feb 27 22:11:38 2023 : Début du programme
+Mon Feb 27 22:11:38 2023 : Données chargées
+Mon Feb 27 22:11:38 2023 : Données chargées
+Mon Feb 27 22:11:38 2023 : Préparation de données terminées
+Mon Feb 27 22:11:41 2023 : Traitement terminé
+Mon Feb 27 22:12:09 2023 : I.A. chargé
+Mon Feb 27 22:12:09 2023 : Début du programme
+Mon Feb 27 22:12:21 2023 : I.A. chargé
+Mon Feb 27 22:12:21 2023 : Début du programme
+Mon Feb 27 22:12:36 2023 : Données chargées
+Mon Feb 27 22:12:36 2023 : Données chargées
+Mon Feb 27 22:12:36 2023 : Préparation de données terminées
+Mon Feb 27 22:12:41 2023 : Traitement terminé
+Mon Feb 27 22:12:43 2023 : Connection avec Binance effectué
+Mon Feb 27 22:12:44 2023 : Soldes récupérés
+Mon Feb 27 22:12:44 2023 : Je prédis 1.2430716 qui est plus grand que 1.2246 qui est le prix actuel.
+Mon Feb 27 22:12:44 2023 : Début du programme
+Mon Feb 27 22:12:45 2023 : Données chargées
+Mon Feb 27 22:12:45 2023 : Données chargées
+Mon Feb 27 22:12:45 2023 : Préparation de données terminées
+Mon Feb 27 22:22:38 2023 : I.A. chargé
+Mon Feb 27 22:22:38 2023 : Début du programme
+Mon Feb 27 22:22:40 2023 : Données chargées
+Mon Feb 27 22:22:40 2023 : Données chargées
+Mon Feb 27 22:22:40 2023 : Préparation de données terminées
+Mon Feb 27 22:22:44 2023 : Traitement terminé
+Mon Feb 27 22:22:49 2023 : Connection avec Binance effectué
+Mon Feb 27 22:22:50 2023 : Soldes récupérés
+Mon Feb 27 22:22:50 2023 : Je prédis 0.07874475 qui est plus petit que 1.2246 qui est le prix actuel.
+Mon Feb 27 22:22:50 2023 : 121.6444 1.2273
+Mon Feb 27 22:22:50 2023 : J'enlève 121.0 !
+Sat Mar 11 20:31:27 2023 : I.A. chargé
+Sat Mar 11 20:31:27 2023 : Début du programme
+Sat Mar 11 20:33:20 2023 : I.A. chargé
+Sat Mar 11 20:33:20 2023 : Début du programme
+Sat Mar 11 20:34:40 2023 : I.A. chargé
+Sat Mar 11 20:34:40 2023 : Début du programme
+Sat Mar 11 20:34:46 2023 : Données chargées
+Sat Mar 11 20:34:46 2023 : Données chargées
+Sat Mar 11 20:34:46 2023 : Préparation de données terminées
+Sat Mar 11 20:34:55 2023 : Traitement terminé
+Sat Mar 11 20:35:42 2023 : I.A. chargé
+Sat Mar 11 20:35:42 2023 : Début du programme
+Sat Mar 11 22:32:34 2023 : I.A. chargé
+Sat Mar 11 22:32:34 2023 : Début du programme
