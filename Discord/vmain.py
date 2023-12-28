@@ -33,4 +33,4 @@ async def ordre(ctx):
     await ctx.send("FIN")
 
 
-bot.run('MTA1ODc3ODI2MzczODEzMDQ3Mw.GaK142.qoLxXLQ0c_ssSsxr0lVrIza72zi0TUdNPpdFqE')
+bot.run(token)
