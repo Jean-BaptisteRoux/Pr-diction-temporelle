@@ -253,9 +253,16 @@ def données_séparées(df,learn_period,batch_size,année=localtime().tm_year):
 
 def lancement_étude(crypto,interval,limite,source="Binance",parent_folder = os.path.dirname(os.path.abspath(__file__))):
     print(crypto,interval)
+    if not os.path.exists(os.path.join(parent_folder,source)):
+        os.makedirs(os.path.join(parent_folder,source))
+    if not os.path.exists(os.path.join(parent_folder,source, crypto)):
+        os.makedirs(os.path.join(parent_folder,source, crypto))
+    if not os.path.exists(os.path.join(parent_folder,source, crypto, interval)):
+        os.makedirs(os.path.join(parent_folder,source, crypto, interval))
     try:
         study = load_study(study_name=crypto+interval, storage="sqlite:///"+os.path.join(parent_folder,source, crypto, interval, crypto+interval+".db"),sampler=TPESampler())
     except:
+        print(crypto+interval,os.path.join(parent_folder,source, crypto, interval, crypto+interval+".db"))    
         study = create_study(study_name=crypto+interval, storage="sqlite:///"+os.path.join(parent_folder,source, crypto, interval, crypto+interval+".db"), direction="maximize")
     #study.pruner(lambda t: t.state == FAILURE or t.state == USER_TERMINATED)
     # Votre code ici
