@@ -122,7 +122,6 @@ def simulation(predictions,reel,taux=1-0.999):
     """Cette fonction simule l'achat et le vente d'un actif selon la différence entre predictions[i] et reel[i]"""
     dollard,btc=100,0
     for i in range(1,len(predictions)): #On part de 1 pour éviter une erreur à i=0
-        #print(predictions[i],reel[i])
         if predictions[i]>reel[i] and dollard:#On achète
             btc=(dollard/reel[i])*(1-taux)
             dollard=0
@@ -131,7 +130,7 @@ def simulation(predictions,reel,taux=1-0.999):
             btc=0
     dollard+=(btc*reel[-1])
     print(dollard,(100*reel[-1]/reel[0]),reel[-1],reel[0])
-    """dollard-=(100*reel[-1]/reel[0])"""
+    dollard-=(100*reel[-1]/reel[0])
     print("Résultat brut : "+str(dollard))
     return dollard
 
@@ -166,7 +165,7 @@ def create_dataset(inputs, outputs, batch_size=1):
 
     return dataset
 
-def actualiser_csv(folder,folder2,end_time=1682113051788,start_time = 1390694400000,parent_folder = os.path.dirname(os.path.abspath(__file__))):
+def actualiser_csv(folder,folder2,end_time = 1682113051788,start_time = 1390694400000,parent_folder = os.path.dirname(os.path.abspath(__file__))):
     # URL de l'API de Binance
     url = "https://api.binance.com/api/v3/klines"
 
@@ -296,7 +295,8 @@ def lancement_des_études(source="Binance",interval_list = ["1m", "3m", "5m", "1
     # Créez un sous-dossier nommé "data" dans le répertoire de l'application
     data_dir = os.path.join(app_dir, source)
     os.makedirs(data_dir, exist_ok=True)"""
-    with open(parent_folder+"/"+source+".txt","r") as e:
+    print(str(parent_folder)+"/"+str(source)+".txt")
+    with open(str(parent_folder)+"/"+str(source)+".txt","r") as e:
         ordre=e.readlines()
     if len(ordre)==1 and ordre[0].split(" ")[0] in interval_list:
         try:
