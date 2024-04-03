@@ -90,7 +90,7 @@ def objective(trial,crypto,interval,source="Binance",parent_folder = os.path.dir
         f"kernel_initializer={kernel_initializer}, activation={activation}, units={units}, "
         f"recurrent_dropout={recurrent_dropout:.2f}, epochs={epochs}, batch_size={batch_size}, "
         f"l1_lambda={l1_lambda:.5f}, l2_lambda={l2_lambda:.5f}")
-    print("Learn_period : ",learn_period,"\n")
+    print("Learn_period : ",learn_period - 1,"\n")
     start_time = time()
     model=entrainement(model,X_train, valid,epochs,batch_size,crypto,interval,source)
     if model==0:
@@ -111,8 +111,8 @@ def objective(trial,crypto,interval,source="Binance",parent_folder = os.path.dir
         pass
     #model.save(os.path.join(os.path.dirname(os.path.abspath(sys.executable)), source,crypto,interval,trial.number))
     model.save(chemin+str(trial.number))
-    """with open(chemin+str(trial.number)+"/scaler.pickle","wb") as best:
-        dump(scaler.pickle,best)"""
+    with open(chemin+str(trial.number)+"/scaler.pickle","wb") as best:
+        dump(scaler.pickle,best)
     with open(chemin+crypto+"-"+interval+".txt","a") as best:
         best.write(str(résultat)+" "+str(résultat-courbe)+"\n") 
     # Retour de la valeur à optimiser (ici, le dollard)
@@ -129,9 +129,11 @@ def simulation(predictions,reel,taux=1-0.999):
             dollard=(btc*reel[i])*(1-taux)
             btc=0
     dollard+=(btc*reel[-1])
-    print(dollard,(100*reel[-1]/reel[0]),reel[-1],reel[0])
+    print("Performance obtenu: "+str(dollard)+"%")
+    print("Performance de l'actif: "+str(int((100*reel[-1]/reel[0])))+"%")
+    print("Prix de départ : "+str(reel[0]))
+    print("Prix de fin : "+str(reel[-1]))
     dollard-=(100*reel[-1]/reel[0])
-    print("Résultat brut : "+str(dollard))
     return dollard
 
 def données(scaler,dataset,learn_period):
@@ -165,7 +167,7 @@ def create_dataset(inputs, outputs, batch_size=1):
 
     return dataset
 
-def actualiser_csv(folder,folder2,end_time = 1682113051788,start_time = 1390694400000,parent_folder = os.path.dirname(os.path.abspath(__file__))):
+def actualiser_csv(folder,folder2,end_time = 1712148957056,start_time = 1390694400000,parent_folder = os.path.dirname(os.path.abspath(__file__))):
     # URL de l'API de Binance
     url = "https://api.binance.com/api/v3/klines"
 
@@ -202,16 +204,16 @@ def actualiser_csv(folder,folder2,end_time = 1682113051788,start_time = 13906944
     # Écriture des données dans un fichier CSV pour la paire actuelle
     df.to_csv(os.path.join(parent_folder,"Binance", folder,folder2,folder+".csv"), index=False)
 
-def nouvelle_étude_binance (crypto,interval,end_time=1682113051788,start_time = 1390694400000,parent_folder = os.path.dirname(os.path.abspath(__file__))):
+def nouvelle_étude_binance (crypto,interval,end_time=1712148957056,start_time = 1390694400000,parent_folder = os.path.dirname(os.path.abspath(__file__))):
     folder=crypto
     folder2=interval
 
     try:
-        os.mkdir(os.path.join(parent_folder,"Binance", folder+"-USDT"))
+        os.mkdir(os.path.join(parent_folder,"Binance", folder))
     except :
         pass
     try:
-        os.mkdir(os.path.join(parent_folder,"Binance", folder+"-USDT",folder2))
+        os.mkdir(os.path.join(parent_folder,"Binance", folder,folder2))
     except:
         pass
 
@@ -259,10 +261,10 @@ def lancement_étude(crypto,interval,limite,source="Binance",parent_folder = os.
     if not os.path.exists(os.path.join(parent_folder,source, crypto, interval)):
         os.makedirs(os.path.join(parent_folder,source, crypto, interval))
     try:
-        study = load_study(study_name=crypto+interval, storage="sqlite:///"+os.path.join(parent_folder,source, crypto, interval, crypto+interval+".db"),sampler=TPESampler())
+        study = load_study(study_name=crypto+interval, storage="sqlite:///"+os.path.join(parent_folder,source, crypto, interval, crypto+"-"+interval+".db"),sampler=TPESampler())
     except:
         print(crypto+interval,os.path.join(parent_folder,source, crypto, interval, crypto+interval+".db"))    
-        study = create_study(study_name=crypto+interval, storage="sqlite:///"+os.path.join(parent_folder,source, crypto, interval, crypto+interval+".db"), direction="maximize")
+        study = create_study(study_name=crypto+interval, storage="sqlite:///"+os.path.join(parent_folder,source, crypto, interval, crypto+"-"+interval+".db"), direction="maximize")
     #study.pruner(lambda t: t.state == FAILURE or t.state == USER_TERMINATED)
     # Votre code ici
     #print(study.trials_dataframe())
@@ -378,7 +380,7 @@ def actualisation_étude(crypto,interval,source="Binance",parent_folder = os.pat
 def actualisation_données(actu_étude=False,source="Binance",parent_folder = os.path.dirname(os.path.abspath(__file__))):
     for i in [f for f in os.listdir(os.path.join(parent_folder,source)) if os.path.isdir(os.path.join(parent_folder,source, f))]:
         for j in [f for f in os.listdir(os.path.join(parent_folder,source,i)) if os.path.isdir(os.path.join(parent_folder,source,i, f))]:
-            actualiser_csv(i[:-5], j)
+            actualiser_csv(i[:-5], j, int((time.time()) * 1000))
             if actu_étude:
                 try:
                     actualisation_étude(i[:-5], j)
